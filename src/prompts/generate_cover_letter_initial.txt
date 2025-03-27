@@ -1,0 +1,12 @@
+Write a cover letter based on the candidate information that is aligned with the job description
+###
+Job description:###
+{input}
+###
+Candidate information:###
+`{compare_experiences}`
+`{resume}`
+`{compare_education}`
+
+###
+The writing style sound natural. Do not use words like "eager" or "keen"; instead, use natural language in professional communication. Stay focused on what the job description requires. Do not make up any facts. Only use provided content.

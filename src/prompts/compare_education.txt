@@ -1,0 +1,3 @@
+Compare the job descrption `{input}` and candidate experiences `{education} {MIT_courses}``{mit_sdm}`.
+
+Identify all relevant content from candidate experiences.

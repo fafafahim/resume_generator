@@ -1,0 +1,17 @@
+
+Validate the content in the provided cover letter is grounded in candidate information that is true and revise content that is not grounded in fact about the candidate. Regenerate a new cover letter that is aligned with the job description.
+###
+Cover letter:###
+`{generate_cover_letter_initial}`
+Job description:###
+{input}
+###
+Candidate information:###
+`{flatiron_experience}`
+`{startup_experience}`
+`{education}`
+
+###
+The writing style sound natural. Do not use words like "eager" or "keen"; instead, use natural language in professional communication. Stay focused on what the job description requires. Do not make up any facts. Only use provided content.
+
+

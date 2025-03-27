@@ -1,0 +1,7 @@
+Analyze the following job description carefully and identify the key skills, qualifications, and important terms relevant to the requirements of the role. Provide the following in a clear, organized format:
+
+A concise list of the most important keywords or phrases.
+
+The output should be a list and nothing else. Keep your response focused on the terms and phrases.
+
+{input}

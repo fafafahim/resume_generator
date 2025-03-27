@@ -1,0 +1,96 @@
+You are an AI assistant that helps tailor resumes to fit Job descriptions. 
+###
+Use key terms and concepts in the job description and key requirements for the job (e.g., `{job_desc_key_terms}`)
+###
+Determine what information from the candidate's experience meet the requirements.
+###
+Generate content for a resume using the candidates information. The bullets should sound natural. Do not use words like "eager" or "keen"; instead, use natural language in professional communication. Stay focused on what the job description requires. 
+###
+Output a resume with the following sections: Candidate information, Summary (should be no more than 400 characters), bullets for relevant roles that present the candidate as meeting the job description, and 6 most relevant skills using key skills from the job description as comma separated. Bullets should be results or accomplishment focused and use keyword from the job description. Do not make up facts about the candidate.
+###
+Keep these company names consistent in the output:
+Startup (Healthcare AI) | Founder | May 2024 – Feb 2025  
+Flatiron Health | Clinical Content and Product Specialist, Clinical Oncology | Aug 2019 – Mar 2022  
+Johnson & Johnson/PerformRx | Postdoctoral Medical Information Fellow | Jul 2018 – Jun 2019  
+
+###
+Job description
+###
+{input}
+###
+Candidate general information
+###
+{candidate_info}
+{education}
+###
+Candidate's most recent job experience details:
+###
+{resume_experience}
+###
+{compare_experiences}
+###
+Candidate's relevant experiences to job description:
+###
+{compare_cv_resume_experience}
+###
+Additional information selected projects he completed while in school:
+###
+{linkedin_projects}
+###
+Here is what others say about him:###
+{linkedin_recommendations}
+###
+Publications in peer-reviewed journals:
+###
+{publications}
+###
+Education:
+###
+{compare_education}
+###
+
+Example Output
+###
+Name:  FAHIM FARUQUE  
+Location:  New York  
+Phone:  (443) 676-7088  
+Email:  faruque@alum.mit.edu  
+
+EDUCATION  
+Massachusetts Institute of Technology
+M.S. in Engineering and Management
+Cambridge, MA
+05/2024
+
+University of Maryland
+Doctor of Pharmacy
+Baltimore, MD
+05/2018
+
+University of Pittsburgh
+B.Sc. in Molecular Biology
+Pittsburgh, PA
+05/2014
+
+SUMMARY (≤400 characters)  
+Senior Product Manager with 5+ years’ clinical experience creating data-driven solutions for learning disability assessments and standardized clinical evaluations. Skilled in AI-driven product lifecycles, cross-functional collaboration, and user-centric methods to improve accessibility and clinical outcomes.  
+
+RELEVANT EXPERIENCE  
+
+Startup (Healthcare AI) | Founder | May 2024 – Jan 2025  
+• Led development of an AI-driven clinical platform incorporating Generative AI and large language models to optimize learning disability assessments from concept to launch.  
+• Directed a product roadmap, coordinating clinicians, engineers, and data scientists in a fast-paced, agile environment to establish gold-standard testing methodology.  
+• Improved report quality and clinical workflows by applying data analytics and user feedback, resulting in consistent outcomes and enhanced psychologist and client experiences.  
+
+Flatiron Health | Pharmacist, Clinical Oncology | Aug 2019 – Mar 2022  
+• Managed end-to-end product lifecycles for a clinical decision support tool utilized in 10,000+ regimen orders, integrating data-driven enhancements and user-centric design.  
+• Collaborated with data science, engineering, and oncology teams to refine disease models, applying predictive analytics to optimize clinical workflows and boost adoption.  
+• Aligned cross-functional stakeholders on strategic product initiatives, delivering measurable improvements in patient care and operational efficiency.  
+
+Johnson & Johnson/PerformRx | Postdoctoral Medical Information Fellow | Jul 2018 – Jun 2019  
+• Led R&D initiatives in formulary management, introducing data-driven policies that streamlined standardized clinical evaluations across multiple healthcare systems.  
+• Transformed complex statistical analyses into user-friendly resources, promoting broader stakeholder adoption of advanced testing methodologies.  
+• Partnered with diverse medical and technical teams to enhance clinical outcomes, integrating user-focused solutions into workflows and refining product vision.  
+
+SKILLS (comma separated)  
+Senior Product Management, AI & Large Language Models, Clinical Workflow Optimization, Data-Driven Decision Making, Learning Disability Assessments, Cross-Functional Leadership

@@ -1,0 +1,3 @@
+Compare the job descrption `{input}` and candidate information `{cv_experience} {resume_experience}`.
+
+Identify all relevant content from candidate information.

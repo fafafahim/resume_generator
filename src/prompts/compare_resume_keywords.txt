@@ -1,0 +1,1 @@
+Compare the resume `{resume}` against the key words in `{job_desc_key_terms}`. How can the resume be made more aligned with the job description `{input}. Generate feedback.
